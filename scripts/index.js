@@ -1,4 +1,5 @@
 //각 이미지 표시 함수
+/*
 const showFlower = () => {
     const imgView1 = document.querySelector("#imgView1");
     const txtWrap = document.querySelector(".txtWrap");
@@ -28,7 +29,7 @@ const showFish = () => {
     imgView1.setAttribute("src", "./images/cityFish.png");
     imgViewText.innerHTML = "고등어";
     txtWrap.style.display = "block";
-}
+}*/
 //하나의 함수로 표현하기!
 const show = (idx) => {
     const pngName = ['cityFlower','cityBird','cityFish'] ;
@@ -39,7 +40,7 @@ const show = (idx) => {
     const imgViewText = document.querySelector("#imgViewText");
 
     imgView1.setAttribute("src", `./images/${pngName[idx]}.png`);
-  //  imgViewText.innerHTML = txt[idx];
+    imgViewText.innerHTML = txt[idx];
     txtWrap.style.display = "block";
 }
 
