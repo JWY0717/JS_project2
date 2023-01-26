@@ -7,6 +7,6 @@
 
 2023.01.20 : 주사위던지기 마무리.
 
-호스팅 주소 : https://dicegame-48313.web.app
+Hosting URL: https://dicegame-1ab50.web.app
 
 
